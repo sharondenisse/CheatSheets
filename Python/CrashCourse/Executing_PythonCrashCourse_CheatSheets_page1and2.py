@@ -3,36 +3,36 @@
 
 # # BEGINNER'S PYTHON CHEAT SHEET
 
-# In[1]:
+# In[ ]:
 
 
 # pages 1 & 2
 
 
-# In[3]:
+# In[ ]:
 
 
 #Variables and Strings
 print('Hello World')
 
 
-# In[4]:
+# In[ ]:
 
 
 msg = 'Hello world'
 msg
 
 
-# In[5]:
+# In[ ]:
 
 
-first_name = 'Brian' 
-last_name = 'Cox' 
+first_name = 'Carl' 
+last_name = 'Sagan' 
 full_name = first_name + ' ' + last_name 
 full_name
 
 
-# In[6]:
+# In[ ]:
 
 
 bikes = ['trek', 'redline', 'giant']
@@ -42,14 +42,14 @@ last_bike = bikes[-1]
 last_bike
 
 
-# In[7]:
+# In[ ]:
 
 
 for bike in bikes:
     print(bike)
 
 
-# In[8]:
+# In[ ]:
 
 
 bikes2 = [] 
@@ -59,7 +59,7 @@ bikes2.append('k2')
 print(bikes2)
 
 
-# In[9]:
+# In[ ]:
 
 
 squares = [] 
@@ -68,7 +68,7 @@ for x in range(1, 11):
 squares
 
 
-# In[10]:
+# In[ ]:
 
 
 finishers = ['Don', 'Kris', 'Matt', 'Joe'] 
@@ -76,14 +76,14 @@ first_two = finishers[:2]
 first_two
 
 
-# In[11]:
+# In[ ]:
 
 
 copy_of_bikes = bikes[:]
 copy_of_bikes
 
 
-# In[12]:
+# In[ ]:
 
 
 # TUPLE
@@ -91,7 +91,7 @@ dimensions = (1920, 1080)
 dimensions
 
 
-# In[13]:
+# In[ ]:
 
 
 x = 3.14
@@ -102,19 +102,19 @@ if x <= 42:
 print(f"The variable x is equal to {x}")
 
 
-# In[14]:
+# In[ ]:
 
 
 'trek' in bikes
 
 
-# In[15]:
+# In[ ]:
 
 
 'surly' in bikes
 
 
-# In[16]:
+# In[ ]:
 
 
 game_active = True 
@@ -123,7 +123,7 @@ can_edit = False
 game_active
 
 
-# In[17]:
+# In[ ]:
 
 
 # DICTIONARY
@@ -133,7 +133,7 @@ alien['x_position'] = 0
 alien
 
 
-# In[20]:
+# In[ ]:
 
 
 # Looping through all key-value pairs
@@ -142,7 +142,7 @@ for name, number in fav_numbers.items():
     print(name + ' loves ' + str(number))
 
 
-# In[21]:
+# In[ ]:
 
 
 # Looping through all keys
@@ -151,7 +151,7 @@ for name in fav_numbers.keys():
     print(name + ' loves a number')
 
 
-# In[22]:
+# In[ ]:
 
 
 # Looping through all values
@@ -160,7 +160,7 @@ for number in fav_numbers.values():
     print(str(number) + ' is a favorite')
 
 
-# In[24]:
+# In[ ]:
 
 
 # USER INPUT
@@ -168,7 +168,7 @@ name = input("What's your name? ")
 print("Hello, " + name + "!")
 
 
-# In[25]:
+# In[ ]:
 
 
 age = input("How old are you? ") 
@@ -179,7 +179,7 @@ pi = float(pi)
 pi
 
 
-# In[26]:
+# In[ ]:
 
 
 # WHILE LOOPS
@@ -189,7 +189,7 @@ while current_value <= 5:
     current_value += 1
 
 
-# In[27]:
+# In[ ]:
 
 
 msg = '' 
@@ -198,7 +198,7 @@ while msg != 'quit':
     print(msg)
 
 
-# In[28]:
+# In[ ]:
 
 
 # FUNCTIONS
@@ -208,7 +208,7 @@ def greet_user():
 greet_user()
 
 
-# In[29]:
+# In[ ]:
 
 
 def greet_user(username): 
@@ -217,7 +217,7 @@ def greet_user(username):
 greet_user('SDK')
 
 
-# In[30]:
+# In[ ]:
 
 
 def make_pizza(topping='bacon'): 
@@ -228,7 +228,7 @@ make_pizza()
 make_pizza('pepperoni')
 
 
-# In[31]:
+# In[ ]:
 
 
 def add_numbers(x, y): 
@@ -239,7 +239,7 @@ sum = add_numbers(3, 5)
 print(sum)
 
 
-# In[34]:
+# In[ ]:
 
 
 # CLASSES
@@ -257,7 +257,7 @@ print(my_dog.name + " is a great dog!")
 my_dog.sit()
 
 
-# In[35]:
+# In[ ]:
 
 
 ### Inheritance
@@ -276,13 +276,13 @@ my_dog.sit()
 my_dog.search()
 
 
-# In[36]:
+# In[ ]:
 
 
 pwd
 
 
-# In[37]:
+# In[ ]:
 
 
 get_ipython().magic('pwd')
@@ -301,7 +301,7 @@ for line in lines:
     print(line)
 
 
-# In[39]:
+# In[ ]:
 
 
 # EXCEPTIONS
